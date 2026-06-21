@@ -50,7 +50,7 @@ The portfolio adapts to different screen sizes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Hemdan219/hemdan-portfolio.git
+git clone https://github.com/hemdan217/hemdan-portfolio.git
 
 # Navigate to the project directory
 cd hemdan-portfolio
@@ -122,7 +122,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Contact
 
 - **Portfolio**: [hemdan-portfolio.com](https://hemdan-portfolio.com)
-- **GitHub**: [Hemdan219](https://github.com/Hemdan219)
+- **GitHub**: [hemdan217](https://github.com/hemdan217)
 - **LinkedIn**: [Hemdan Khalifa](https://linkedin.com/in/hemdan-khalifa)
 - **Email**: hemdan219@gmail.com
 

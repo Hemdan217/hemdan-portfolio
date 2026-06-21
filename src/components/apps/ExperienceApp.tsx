@@ -89,10 +89,10 @@ const ExperienceApp = () => {
     {
       company: "Nexventures SA",
       role: "Front-End Developer",
-      period: "Sep 2023 - Present",
+      period: "Sep 2023 - Jun 2026",
       location: "Switzerland",
       description:
-        "Working as a key developer at Nexventures, a software development company with a focus on innovative solutions for various industries. Contributing to multiple projects with different tech stacks.",
+        "Contributing to multiple client projects with React and Angular, focusing on scalable architecture, feature delivery, and platform optimization.",
       technologies: [
         "React",
         "Angular",
@@ -108,7 +108,7 @@ const ExperienceApp = () => {
           role: "React Developer",
           period: "Part of Nexventures role",
           description:
-            "Contributed to developing an ERP system for real estate management, improving processes for companies, tenants, owners, and admins. Developed real-time chat functionality, ticketing module, and voting module.",
+            "Contributed to developing an ERP system for real estate management. Played a key role in system architecture and tech-stack decisions. Developed real-time chat, ticketing, and voting modules.",
           technologies: [
             "Next.js",
             "React",
@@ -123,7 +123,7 @@ const ExperienceApp = () => {
           role: "Angular Developer",
           period: "Part of Nexventures role",
           description:
-            "Contributed to the upgrades and maintenance of POS software for restaurants, enhancing online ordering, QR solutions, and Kiosk systems. Optimized admin portal for better restaurant management.",
+            "Contributed to upgrades and maintenance of POS software for restaurants, enhancing online ordering, QR solutions, and Kiosk systems. Optimized admin portal for better restaurant management.",
           technologies: [
             "Angular",
             "Services",
@@ -137,28 +137,28 @@ const ExperienceApp = () => {
     },
     {
       company: "Safka",
-      role: "MERN Stack Developer",
-      period: "Mar 2024",
+      role: "Full-Stack Developer",
+      period: "Mar 2023 - Mar 2026",
       location: "Part Time, Remote, Egypt",
       description:
-        "Streamlined platform performance and fortified security to boost efficiency for web administrators, marketers, and merchants. Implemented role-based access and permissions middleware, eliminating critical vulnerabilities. Engineered financial reports, analytics, and marketer alerts, empowering data-driven decisions.",
+        "Built and maintained an affiliate and e-commerce operations platform serving admins, marketers, and merchants. Designed a multi-line WhatsApp platform, Public API for third-party integrations, analytics and reporting systems, inventory and supplier management, and RBAC with audit logging across the platform.",
       technologies: [
-        "React.js",
-        "Redux",
-        "REST APIs",
-        "Chakra UI",
-        "Express",
-        "NGINX",
-        "PM2",
-        "MongoDB",
         "Node.js",
+        "Express.js",
+        "MongoDB",
+        "React",
+        "REST APIs",
+        "Webhooks",
+        "WhatsApp Business API",
         "DigitalOcean",
+        "PM2",
+        "NGINX",
       ],
     },
     {
       company: "Freelance",
       role: "Software Engineer",
-      period: "Jan 2023 - Present",
+      period: "Jan 2021 - May 2025",
       location: "Remote",
       description:
         "Delivered a wide range of projects in web development, data science, and web scraping for clients across various freelancing platforms. Managed end-to-end project execution, consistently delivering high-quality solutions. Achieved a 98% Job Success Score (JSS) with 50+ completed jobs.",
@@ -170,7 +170,6 @@ const ExperienceApp = () => {
         "Web Scraping",
         "JavaScript",
         "React.js",
-        "Software Development",
         "Chrome Extensions",
         "Supabase",
       ],

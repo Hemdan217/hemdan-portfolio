@@ -60,7 +60,7 @@ interface DockProps {
 
 const Dock: React.FC<DockProps> = ({ apps, onAppClick }) => {
   return (
-    <div className="fixed left-0 bottom-14 top-0 w-16 bg-os-sidebar-bg flex flex-col items-center pt-4 border-r border-border z-10 transition-all duration-300 md:w-16 sm:w-12">
+    <div className="fixed left-0 bottom-14 top-0 w-16 bg-os-sidebar-bg text-foreground flex flex-col items-center pt-4 border-r border-border z-10 transition-all duration-300 md:w-16 sm:w-12">
       <div className="flex flex-col space-y-4">
         {apps.map((app) => (
           <DockApp

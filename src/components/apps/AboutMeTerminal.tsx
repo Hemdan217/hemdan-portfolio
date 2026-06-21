@@ -16,7 +16,7 @@ const AboutMeTerminal = () => {
   useEffect(() => {
     const bootMessages: TerminalItem[] = [
       { text: "Welcome to HemdanOS v1.0", type: "system" },
-      { text: "Copyright (c) 2025 Hemdan Khalifa", type: "copyright" },
+      { text: "Copyright (c) 2026 Hemdan Khalifa", type: "copyright" },
       { text: "All rights reserved.", type: "copyright" },
       { text: "", type: "blank" },
       { text: "Initializing system...", type: "loading" },
@@ -59,7 +59,7 @@ const AboutMeTerminal = () => {
       {
         text: "│ GitHub:    ",
         type: "label",
-        highlight: "github.com/Hemdan219          │",
+        highlight: "github.com/hemdan217          │",
         type2: "value",
       },
       {
@@ -142,11 +142,20 @@ const AboutMeTerminal = () => {
         highlight: "Nexventures SA",
         type2: "company",
       },
-      { text: "  (Sep 2023 - Present)", type: "date" },
+      { text: "  (Sep 2023 - Jun 2026)", type: "date" },
       {
         text: "  - Working on two key projects: Propyz and Tapgo",
         type: "point",
       },
+      { text: "", type: "blank" },
+      {
+        text: "    └─ ",
+        type: "tree",
+        highlight: "Tapgo (Nexventures Project)",
+        type2: "project",
+      },
+      { text: "       Restaurant POS software enhancement", type: "subpoint" },
+      { text: "       Online ordering & QR solutions", type: "subpoint" },
       { text: "", type: "blank" },
       {
         text: "    └─ ",
@@ -164,31 +173,25 @@ const AboutMeTerminal = () => {
       },
       { text: "", type: "blank" },
       {
-        text: "    └─ ",
-        type: "tree",
-        highlight: "Tapgo (Nexventures Project)",
-        type2: "project",
-      },
-      { text: "       Restaurant POS software enhancement", type: "subpoint" },
-      { text: "       Online ordering & QR solutions", type: "subpoint" },
-      { text: "", type: "blank" },
-      {
-        text: "* MERN Stack Developer @ ",
+        text: "* Full-Stack Developer @ ",
         type: "bullet",
         highlight: "Safka",
         type2: "company",
       },
-      { text: "  (Mar 2024, Part Time)", type: "date" },
+      { text: "  (Mar 2023 - Mar 2026, Part Time)", type: "date" },
       {
-        text: "  - Security middleware and platform optimization",
+        text: "  - Affiliate & e-commerce ops platform for admins/marketers",
         type: "point",
       },
-      { text: "  - Financial reporting and analytics features", type: "point" },
+      {
+        text: "  - WhatsApp platform, Public API, analytics & inventory modules",
+        type: "point",
+      },
       { text: "", type: "blank" },
       {
         text: "* Freelancer ",
         type: "bullet",
-        highlight: "(Jan 2023 - Present)",
+        highlight: "(Jan 2021 - May 2025)",
         type2: "date",
       },
       { text: "  - 50+ projects with 98% Job Success Score", type: "point" },

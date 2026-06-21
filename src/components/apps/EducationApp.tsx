@@ -99,15 +99,6 @@ const EducationApp = () => {
       ],
     },
     {
-      title: "Web Development Professional Nanodegree",
-      institution: "Udacity",
-      date: "2022",
-      description:
-        "In-depth exploration of professional web development practices, covering frontend and backend technologies, performance optimization, and deployment strategies.",
-      logo: "UD",
-      skills: ["Web Development", "Frontend", "Backend", "Performance"],
-    },
-    {
       title: "The Complete JavaScript Course: From Zero to Expert",
       institution: "Udemy",
       date: "2021",

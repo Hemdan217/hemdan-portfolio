@@ -39,8 +39,8 @@
     --os-accent: 262 83% 58%;
     --os-accent-hover: 262 83% 48%;
     --os-terminal-bg: 240 10% 3.9%;
-    --os-sidebar-bg: 240 10% 15%;
-    --os-taskbar-bg: 240 10% 15% / 0.85;
+    --os-sidebar-bg: 0 0% 97%;
+    --os-taskbar-bg: 0 0% 95% / 0.92;
   }
 
   .dark {
@@ -117,7 +117,7 @@
   }
 
   .window-content {
-    @apply p-4 flex-grow overflow-auto;
+    @apply min-h-0 p-4 flex-grow overflow-hidden;
   }
 
   .window-control {

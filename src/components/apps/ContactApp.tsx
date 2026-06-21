@@ -177,12 +177,12 @@ const ContactApp = () => {
                 <div>
                   <h3 className="text-sm font-medium">GitHub</h3>
                   <a 
-                    href="https://github.com/Hemdan219" 
+                    href="https://github.com/hemdan217" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-os-accent hover:underline"
                   >
-                    github.com/Hemdan219
+                    github.com/hemdan217
                   </a>
                 </div>
               </div>

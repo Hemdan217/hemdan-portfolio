@@ -1,12 +1,22 @@
-import { FileText, ChevronRight } from "lucide-react";
+import { FileText, ChevronRight, Download } from "lucide-react";
 
 const ResumeApp = () => {
   return (
     <div className="h-full overflow-auto">
       <div className="max-w-3xl mx-auto p-6">
-        <div className="mb-6 flex items-center">
-          <FileText className="w-8 h-8 mr-3 text-os-accent" />
-          <h1 className="text-2xl font-bold">Hemdan Khalifa - Resume</h1>
+        <div className="mb-6 flex items-center justify-between">
+          <div className="flex items-center">
+            <FileText className="w-8 h-8 mr-3 text-os-accent" />
+            <h1 className="text-2xl font-bold">Hemdan Khalifa - Resume</h1>
+          </div>
+          <a
+            href="/Hemdan_Khalifa_2026.pdf"
+            download="Hemdan_Khalifa_2026.pdf"
+            className="flex items-center gap-2 px-3 py-1.5 text-sm border border-border rounded-lg hover:bg-muted transition-colors"
+          >
+            <Download size={14} />
+            Download PDF
+          </a>
         </div>
 
         {/* Profile Section */}
@@ -38,56 +48,18 @@ const ResumeApp = () => {
               <div className="flex justify-between text-sm mb-1">
                 <span className="font-medium">Front-End Developer</span>
                 <span className="text-muted-foreground">
-                  Sep 2023 - Present
+                  Sep 2023 - Jun 2026
                 </span>
               </div>
               <p className="text-sm mb-3 text-muted-foreground">Switzerland</p>
-              <ul className="list-disc list-inside space-y-1 text-sm mb-4">
-                <li>
-                  Working on two key projects: Propyz (real estate ERP) and
-                  Tapgo (restaurant POS)
-                </li>
-                <li>
-                  Contributing to both React and Angular development sides of
-                  these applications
-                </li>
-                <li>
-                  Enhancing online ordering, QR solutions, and admin portals
-                </li>
-                <li>Making architecture decisions to ensure scalability</li>
-              </ul>
             </div>
 
-            {/* Projects under Nexventures - nested */}
             <div className="mt-4 border-t border-border/40 pt-4">
               <p className="text-sm font-medium text-muted-foreground mb-2">
                 Projects:
               </p>
 
-              {/* Project 1: Propyz */}
               <div className="pl-4 mb-6 ml-2 border-l-2 border-os-accent/70">
-                <div className="flex items-center mb-1">
-                  <ChevronRight className="w-4 h-4 text-os-accent mr-1" />
-                  <h4 className="font-medium text-sm">Propyz (React)</h4>
-                </div>
-                <p className="text-xs text-muted-foreground mb-2 ml-5">
-                  Real Estate ERP System
-                </p>
-                <ul className="ml-5 space-y-1 text-xs list-disc list-outside">
-                  <li>Developed ERP system for real estate management</li>
-                  <li>
-                    Created real-time chat functionality and ticketing module
-                  </li>
-                  <li>
-                    Implemented real-time voting module for enhanced
-                    communication
-                  </li>
-                  <li>Made key architecture decisions to ensure scalability</li>
-                </ul>
-              </div>
-
-              {/* Project 2: Tapgo */}
-              <div className="pl-4 ml-2 border-l-2 border-os-accent/70">
                 <div className="flex items-center mb-1">
                   <ChevronRight className="w-4 h-4 text-os-accent mr-1" />
                   <h4 className="font-medium text-sm">Tapgo (Angular)</h4>
@@ -97,33 +69,83 @@ const ResumeApp = () => {
                 </p>
                 <ul className="ml-5 space-y-1 text-xs list-disc list-outside">
                   <li>
-                    Contributed to POS software enhancement for restaurants
+                    Contributed to upgrades and maintenance of POS software for
+                    restaurants
                   </li>
-                  <li>Implemented and improved online ordering features</li>
-                  <li>Worked on QR solutions and Kiosk systems</li>
-                  <li>Optimized admin portal functionality</li>
+                  <li>
+                    Enhanced online ordering, QR solutions, and Kiosk systems
+                  </li>
+                  <li>
+                    Played a key role in bug fixing and optimizing the admin
+                    portal
+                  </li>
+                </ul>
+              </div>
+
+              <div className="pl-4 ml-2 border-l-2 border-os-accent/70">
+                <div className="flex items-center mb-1">
+                  <ChevronRight className="w-4 h-4 text-os-accent mr-1" />
+                  <h4 className="font-medium text-sm">Propyz (React)</h4>
+                </div>
+                <p className="text-xs text-muted-foreground mb-2 ml-5">
+                  Real Estate ERP System
+                </p>
+                <ul className="ml-5 space-y-1 text-xs list-disc list-outside">
+                  <li>
+                    Contributed to developing an ERP system for real estate
+                    management
+                  </li>
+                  <li>
+                    Played a key role in system architecture and tech-stack
+                    decisions
+                  </li>
+                  <li>
+                    Developed real-time chat, ticketing, and voting modules
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          {/* Other experiences */}
           <div className="mb-6 border border-border rounded-lg p-5 hover:bg-muted/10 transition-colors">
-            <h3 className="font-semibold text-os-accent">
-              MERN Stack Developer
-            </h3>
+            <h3 className="font-semibold text-os-accent">Safka</h3>
             <div className="flex justify-between text-sm mb-1">
-              <span className="font-medium">Safka</span>
-              <span className="text-muted-foreground">Mar 2024</span>
+              <span className="font-medium">Full-Stack Developer</span>
+              <span className="text-muted-foreground">Mar 2023 - Mar 2026</span>
             </div>
             <p className="text-sm mb-2 text-muted-foreground">
               Part Time, Remote, Egypt
             </p>
             <ul className="list-disc list-inside space-y-1 text-sm">
-              <li>Implemented role-based access and permissions middleware</li>
-              <li>Developed financial reports, analytics, and alert systems</li>
-              <li>Created modules for blocked numbers and favorite products</li>
-              <li>Integrated EasyOrders with webhooks for real-time syncing</li>
+              <li>
+                Built and maintained an affiliate and e-commerce operations
+                platform serving admins, marketers, and merchants
+              </li>
+              <li>
+                Designed a multi-line WhatsApp platform integrating EasyConfirm
+                and Meta WhatsApp API with unified inboxes and encrypted
+                credentials
+              </li>
+              <li>
+                Developed a Public API for third-party integrations using API-key
+                authentication
+              </li>
+              <li>
+                Built analytics and reporting systems covering marketer
+                performance, conversion rates, inventory, and financial KPIs
+              </li>
+              <li>
+                Engineered inventory and supplier management modules with stock
+                automation, supplier ledgers, and low-stock alerts
+              </li>
+              <li>
+                Implemented RBAC, audit logging, employee activity tracking, and
+                secure integration management
+              </li>
+              <li>
+                Delivered integrations with Shopify, EasyOrders, LightFunnels,
+                and shipping providers through webhook-driven architectures
+              </li>
             </ul>
           </div>
 
@@ -133,7 +155,7 @@ const ResumeApp = () => {
             </h3>
             <div className="flex justify-between text-sm mb-1">
               <span className="font-medium">Various Clients</span>
-              <span className="text-muted-foreground">Jan 2023 - Present</span>
+              <span className="text-muted-foreground">Jan 2021 - May 2025</span>
             </div>
             <p className="text-sm mb-2 text-muted-foreground">Remote</p>
             <ul className="list-disc list-inside space-y-1 text-sm">
@@ -144,6 +166,61 @@ const ResumeApp = () => {
               <li>Managed end-to-end project execution across platforms</li>
               <li>Built long-term client relationships through quality work</li>
             </ul>
+          </div>
+        </section>
+
+        {/* Projects Section */}
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold border-b border-border pb-2 mb-4 text-os-accent">
+            Projects
+          </h2>
+
+          <div className="mb-4 border border-border rounded-lg p-4 hover:bg-muted/10 transition-colors">
+            <h3 className="font-semibold text-os-accent mb-2">
+              Khazna — Treasury Management System (Safka Integration)
+            </h3>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>
+                Built role-based treasury system for income, expenses,
+                transfers, and audit tracking
+              </li>
+              <li>
+                Designed category-driven financial engine with parent-child
+                hierarchy and behavior-based rules
+              </li>
+              <li>
+                Integrated Safka production MongoDB for merchants, products, and
+                balance reconciliation
+              </li>
+              <li>
+                Implemented multi-merchant payout splitting with server-side
+                validation
+              </li>
+              <li>
+                Developed reporting with advanced filtering, pagination, and
+                Cairo timezone aggregates
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-4 border border-border rounded-lg p-4 hover:bg-muted/10 transition-colors">
+            <h3 className="font-semibold text-os-accent mb-2">
+              Blurr HR Portal
+            </h3>
+            <p className="text-sm text-muted-foreground mb-2">
+              Full-stack HR platform with RBAC, payroll, Kanban tasks, and
+              analytics (technical assessment)
+            </p>
+          </div>
+
+          <div className="border border-border rounded-lg p-4 hover:bg-muted/10 transition-colors">
+            <h3 className="font-semibold text-os-accent mb-2">
+              Task Manager — React Native (Expo)
+            </h3>
+            <p className="text-sm text-muted-foreground">
+              Cross-platform task app with CRUD, filters, theming, and tests
+              (technical assessment)
+            </p>
           </div>
         </section>
 
@@ -246,9 +323,6 @@ const ResumeApp = () => {
                 Full Stack JavaScript Developer Nanodegree - Udacity
               </li>
               <li className="text-sm">
-                Web Development Professional Nanodegree - Udacity
-              </li>
-              <li className="text-sm">
                 The Complete JavaScript Course: From Zero to Expert - Udemy
               </li>
               <li className="text-sm">
@@ -274,7 +348,7 @@ const ResumeApp = () => {
           <div className="border border-border rounded-lg p-4 hover:bg-muted/10 transition-colors space-y-2 text-sm">
             <p>Email: hemdan219@gmail.com</p>
             <p>Phone: +201090188616</p>
-            <p>GitHub: Hemdan219</p>
+            <p>GitHub: hemdan217</p>
             <p>LinkedIn: hemdan-khalifa</p>
             <p>Location: Kafr El-Sheikh, Egypt</p>
           </div>
